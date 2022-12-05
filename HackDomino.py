@@ -1,6 +1,6 @@
 #Yg Rekod Anak Babi
 #Jangan Rekod Kontol
-#my_github_https://github.com/HydraaDynamo
+#my_github_https://github.com/wayle77/HackDomino
 #wa:PRIVAT :v
 
 
@@ -40,7 +40,7 @@ os.system('xdg-open https://topbos-id.com/home/loginid2')
 logo = """
 \033[1;92m  
 ========================================================================
- WELLCOME HACK GAME DOMINO ISLAND
+ ~ WELLCOME HACK GAME HIGGS DOMINO ISLAND ~
  ========================================================================
 """
 
