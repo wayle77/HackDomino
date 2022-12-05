@@ -40,7 +40,7 @@ os.system('xdg-open https://topbos-id.com/home/loginid2')
 logo = """
 \033[1;92m  
 ========================================================================
- WELLCOME HACK AKUN DOMINO ISLAND
+ WELLCOME HACK GAME DOMINO ISLAND
  ========================================================================
 """
 
@@ -79,7 +79,7 @@ class Main:
 			
 			print("\033[0;93m[➤] AKUN PENGUNJUNG -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("%s[➤] GUNAKAN ID GAME INI [➤] %s456789,123456,1234567,123456789"%(G,Y))
+				print("%s[➤] GUNAKAN ID GAME INI [➤] %s123456,1234567,123456789"%(G,Y))
 				listpass = input("%s[➤] MASUKAN ID GAME :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s[➤] SANDI MAX 6 "%(B))
