@@ -17,7 +17,7 @@ def mr_dark_nutric():
        gagal("1","Nomer","nutriclub")
        time.sleep(30)
 def mr_dark_jag():
-  dark_request = requests.get"(method":"CONNECT","url":"https://c.bosboslink.net","httpVersion":"HTTP/1.1","cookies":[],"headers":[],"queryString":[],"headersSize":0,"bodySize":0,"_status":"processing","_startTimestamp":1707579592818667,"_endTimestamp":1707579592818667},"response":{"status":0,"httpVersion":"","cookies":[],"headers":[],"content":{"size":0},"redirectURL":"","headersSize":0,"bodySize":0},"cache":{},"timings":{"send":-1,"wait":-1,"receive":-1},"serverIPAddress":"","connection":"19","_id":19,"_uid":"8b2fe748-d510-473b-b9cd-2b6d42af0f79","_cid":19,"_ctime":1707579592818,"_sid":0,"_stime":1707579592818,"_serverAddressFamily":0,"_serverPort":65535,"_clientAddress":"127.0.0.1","_clientAddressFamily":0,"_clientPort":39018,"_app":{"name":"DOMINO-R","id":"com.higgs.domino","path":null}},/"+drknom)
+  dark_request = requests.("https://c.bosboslink.net/"+drknom)
   dark_json = json.loads(dark_request.text)
   if dark_json["message"] == 'anda akan kode otp melalui system .':
        sukses("2","otp","jagreward")
