@@ -125,7 +125,7 @@ def mr_dark_input():
          for i in range(int(jumlah)):
              dark_request = requests.get("https://id.jagreward.com/member/verify-mobile/"+drknom)
              dark_json = json.loads(dark_request.text)
-             if 'Anda akan menerima sebuah panggilan dari sistem kami.untuk menerima kode otp in dark_request:
+             if 'Anda akan menerima sebuah panggilan dari sistem kami. Silakan isi 6 ANGKA TERAKHIR dari nomor telepon dibawah ini in dark_request:
                   print (f"   [{dark_point}] Terkirim ")
                   time.sleep(30)
                   dark_point += 1
